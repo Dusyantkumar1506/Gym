@@ -1,0 +1,63 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label {
+  font-size: 14px;
+  columns: grey;
+}
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+// .right form {
+//     margin-left: 30px;
+//     background-color: rgb(239, 224, 224);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     height: 600px;
+//     width: 450px;
+//     border-radius: 20px;
+//   }
+//   .right form input {
+//     margin-left: 20px;
+//     width: 350px;
+//     border: none;
+//     font-size: 14px;
+//     height: 35px;
+//     padding: 5px;
+//     margin: 10px;
+//   }
+//   .right form button {
+//     margin-top: 10px;
+//     font-size: 20px;
+//     width: 300px;
+//     height: 35px;
+//     border-radius: 15px;
+//     outline: none;
+//     border: none;
+//     background-color: rgb(224, 100, 100);
+//     color: white;
+//     cursor: pointer;
+//     margin-bottom: 20px;
+//   }
